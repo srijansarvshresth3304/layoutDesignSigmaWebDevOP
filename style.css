@@ -7,7 +7,7 @@
 body {
     background-color: rgb(235, 126, 126);
 }
-header{
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -65,7 +65,7 @@ a {
     text-decoration: none;
     color: black;
 }
-#sec1{
+#sec1 {
     width: 97vw;
     height: 70vh;
     background-color: green;
@@ -74,17 +74,17 @@ a {
     align-items: center;
     margin: 150px 20px;
 }
-#left{
+#left {
     width: 40vw;
     height: 50vh;
     background-color: pink;
 }
-#right{
+#right {
     width: 40vw;
     height: 50vh;
     background-color: lightblue;
 }
-#sec2{
+#sec2 {
     background-color: black;
     margin: auto;
     padding: 40px;
@@ -96,20 +96,20 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-#sec2 h2{
+#sec2 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     /* text-align: center; */
     margin: auto;
 }
-#sec2 img{
+#sec2 img {
     position: fixed;
     right: 20px;
     bottom: 20px;
     border-radius: 50%;
 }
-footer{
+footer {
     background-color: white;
     /* color: white; */
     width: 100vw;
