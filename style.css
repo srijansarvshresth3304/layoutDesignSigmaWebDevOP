@@ -7,6 +7,11 @@
 body {
     background-color: rgb(235, 126, 126);
 }
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 .nav {
     display: flex;
     justify-content: space-around;
@@ -16,8 +21,6 @@ body {
     height: 15vh;
     font-size: 1.2rem;
     background-color: aqua;
-    position: sticky;
-    top: 0;
 }
 .nav1 {
     display: flex;
@@ -69,7 +72,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
+    margin: 150px 20px;
 }
 #left{
     width: 40vw;
@@ -97,8 +100,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-
+    /* text-align: center; */
+    margin: auto;
 }
 #sec2 img{
     position: fixed;
